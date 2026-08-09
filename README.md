@@ -326,11 +326,29 @@ User
                     └── Activities
 ```
 
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="50%">
+
 ### ER Diagram
 
-> 📌 **Add the exported ER diagram here.**
+<img src="Docs/taskmatrix-erd.png" alt="TaskMatrix ER Diagram" width="100%">
 
-**File:** `docs/diagrams/er-diagram.png`
+</td>
+
+<td align="center" width="50%">
+
+### 
+
+<img src="Docs/taskmatrix-state-tree.png" alt="TaskMatrix Projects" width="100%">
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
