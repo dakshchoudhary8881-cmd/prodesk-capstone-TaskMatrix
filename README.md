@@ -43,7 +43,7 @@ A modern full-stack project management platform designed to help teams manage pr
 
 <br><br>
 
-**[ ENTER TASKMATRIX → ](https://prodesk-capstone-task-matrix-one.vercel.app/login)**
+**[ ENTER TASKMATRIX → ](https://prodesk-capstone-task-matrix-one.vercel.app)**
 
 </div>
 
