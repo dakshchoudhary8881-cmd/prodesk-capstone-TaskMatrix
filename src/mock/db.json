@@ -1,0 +1,319 @@
+{
+  "users": [
+    {
+      "id": "usr_001",
+      "name": "Alex Chen",
+      "email": "alex.chen@taskmatrix.com",
+      "avatar": "https://i.pravatar.cc/150?u=alex.chen@taskmatrix.com",
+      "role": "Admin",
+      "department": "Engineering"
+    },
+    {
+      "id": "usr_002",
+      "name": "Sarah Miller",
+      "email": "sarah.miller@taskmatrix.com",
+      "avatar": "https://i.pravatar.cc/150?u=sarah.miller@taskmatrix.com",
+      "role": "Manager",
+      "department": "Product"
+    },
+    {
+      "id": "usr_003",
+      "name": "David Kim",
+      "email": "david.kim@taskmatrix.com",
+      "avatar": "https://i.pravatar.cc/150?u=david.kim@taskmatrix.com",
+      "role": "Member",
+      "department": "Design"
+    },
+    {
+      "id": "usr_004",
+      "name": "Emma Watson",
+      "email": "emma.watson@taskmatrix.com",
+      "avatar": "https://i.pravatar.cc/150?u=emma.watson@taskmatrix.com",
+      "role": "Member",
+      "department": "Marketing"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_001",
+      "name": "TaskMatrix Redesign V2",
+      "description": "Complete overhaul of the core design system and dashboard UI.",
+      "status": "In Progress",
+      "progress": 65,
+      "startDate": "2026-06-01T00:00:00Z",
+      "dueDate": "2026-09-15T00:00:00Z",
+      "ownerId": "usr_002",
+      "memberIds": ["usr_001", "usr_002", "usr_003"]
+    },
+    {
+      "id": "prj_002",
+      "name": "Mobile App Launch",
+      "description": "Develop and launch the iOS and Android applications.",
+      "status": "Planning",
+      "progress": 15,
+      "startDate": "2026-08-01T00:00:00Z",
+      "dueDate": "2026-12-01T00:00:00Z",
+      "ownerId": "usr_001",
+      "memberIds": ["usr_001", "usr_003"]
+    },
+    {
+      "id": "prj_003",
+      "name": "Q3 Marketing Campaign",
+      "description": "Social media outreach and targeted ad campaigns for Q3.",
+      "status": "Completed",
+      "progress": 100,
+      "startDate": "2026-07-01T00:00:00Z",
+      "dueDate": "2026-08-01T00:00:00Z",
+      "ownerId": "usr_004",
+      "memberIds": ["usr_004", "usr_002"]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_001",
+      "projectId": "prj_001",
+      "title": "Update color palette to use Tailwind v4",
+      "description": "Migrate all hardcoded HEX values to the new CSS variable system.",
+      "status": "done",
+      "priority": "high",
+      "assigneeId": "usr_003",
+      "reporterId": "usr_002",
+      "createdAt": "2026-08-01T10:00:00Z",
+      "dueDate": "2026-08-05T17:00:00Z",
+      "labels": ["Design", "Frontend"],
+      "checklist": { "total": 4, "completed": 4 }
+    },
+    {
+      "id": "tsk_002",
+      "projectId": "prj_001",
+      "title": "Implement DND Kit for Kanban",
+      "description": "Add sortable columns and draggable task cards.",
+      "status": "in-progress",
+      "priority": "high",
+      "assigneeId": "usr_001",
+      "reporterId": "usr_002",
+      "createdAt": "2026-08-03T14:30:00Z",
+      "dueDate": "2026-08-10T17:00:00Z",
+      "labels": ["Feature", "Frontend"],
+      "checklist": { "total": 5, "completed": 2 }
+    },
+    {
+      "id": "tsk_003",
+      "projectId": "prj_002",
+      "title": "Setup React Native environment",
+      "description": "Initialize Expo project and configure linting.",
+      "status": "todo",
+      "priority": "medium",
+      "assigneeId": "usr_001",
+      "reporterId": "usr_001",
+      "createdAt": "2026-08-06T09:15:00Z",
+      "dueDate": "2026-08-12T17:00:00Z",
+      "labels": ["Feature", "Backend"]
+    },
+    {
+      "id": "tsk_004",
+      "projectId": "prj_003",
+      "title": "Review Ad Copy",
+      "description": "Check grammar and tone of the Q3 ads.",
+      "status": "review",
+      "priority": "low",
+      "assigneeId": "usr_004",
+      "reporterId": "usr_004",
+      "createdAt": "2026-07-28T11:45:00Z",
+      "dueDate": "2026-07-30T17:00:00Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act_001",
+      "userId": "usr_001",
+      "action": "moved task",
+      "targetId": "tsk_002",
+      "targetName": "Implement DND Kit for Kanban",
+      "details": "from To Do to In Progress",
+      "createdAt": "2026-08-07T14:22:00Z"
+    },
+    {
+      "id": "act_002",
+      "userId": "usr_003",
+      "action": "completed task",
+      "targetId": "tsk_001",
+      "targetName": "Update color palette",
+      "details": "",
+      "createdAt": "2026-08-05T16:45:00Z"
+    },
+    {
+      "id": "act_003",
+      "userId": "usr_002",
+      "action": "created project",
+      "targetId": "prj_002",
+      "targetName": "Mobile App Launch",
+      "details": "",
+      "createdAt": "2026-08-01T09:00:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "not_001",
+      "userId": "usr_001",
+      "type": "mention",
+      "title": "You were mentioned in a comment",
+      "message": "@alex.chen can you check the API response here?",
+      "read": false,
+      "createdAt": "2026-08-08T10:15:00Z",
+      "link": "/board/tsk_002"
+    },
+    {
+      "id": "not_002",
+      "userId": "usr_001",
+      "type": "assignment",
+      "title": "New task assigned",
+      "message": "Sarah Miller assigned 'Setup React Native environment' to you.",
+      "read": true,
+      "createdAt": "2026-08-06T09:20:00Z",
+      "link": "/board/tsk_003"
+    },
+    {
+      "id": "not_003",
+      "userId": "usr_001",
+      "type": "alert",
+      "title": "Project deadline approaching",
+      "message": "'TaskMatrix Redesign V2' is due in 10 days.",
+      "read": false,
+      "createdAt": "2026-08-05T08:00:00Z",
+      "link": "/projects/prj_001"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rpt_001",
+      "title": "Sprint 42 Velocity",
+      "type": "velocity",
+      "generatedBy": "usr_002",
+      "generatedAt": "2026-08-01T12:00:00Z",
+      "data": {
+        "completedStoryPoints": 45,
+        "plannedStoryPoints": 50,
+        "completionRate": 90
+      }
+    },
+    {
+      "id": "rpt_002",
+      "title": "Q3 Marketing ROI",
+      "type": "financial",
+      "generatedBy": "usr_004",
+      "generatedAt": "2026-08-02T09:30:00Z",
+      "data": {
+        "spend": 15000,
+        "revenue": 45000,
+        "roi": 200
+      }
+    }
+  ],
+  "charts": {
+    "taskDistribution": [
+      { "name": "To Do", "value": 12 },
+      { "name": "In Progress", "value": 8 },
+      { "name": "Review", "value": 4 },
+      { "name": "Done", "value": 24 }
+    ],
+    "weeklyActivity": [
+      { "name": "Mon", "completed": 5, "added": 8 },
+      { "name": "Tue", "completed": 7, "added": 4 },
+      { "name": "Wed", "completed": 3, "added": 2 },
+      { "name": "Thu", "completed": 9, "added": 6 },
+      { "name": "Fri", "completed": 12, "added": 3 },
+      { "name": "Sat", "completed": 2, "added": 0 },
+      { "name": "Sun", "completed": 1, "added": 1 }
+    ],
+    "projectHealth": [
+      { "name": "On Track", "value": 75 },
+      { "name": "At Risk", "value": 15 },
+      { "name": "Off Track", "value": 10 }
+    ]
+  },
+  "calendarEvents": [
+    {
+      "id": "evt_001",
+      "title": "Daily Standup",
+      "description": "Sync on daily progress and blockers.",
+      "start": "2026-08-08T09:30:00Z",
+      "end": "2026-08-08T10:00:00Z",
+      "type": "meeting",
+      "attendees": ["usr_001", "usr_002", "usr_003"]
+    },
+    {
+      "id": "evt_002",
+      "title": "Sprint Planning",
+      "description": "Plan tasks for Sprint 43.",
+      "start": "2026-08-10T13:00:00Z",
+      "end": "2026-08-10T15:00:00Z",
+      "type": "planning",
+      "attendees": ["usr_001", "usr_002", "usr_003", "usr_004"]
+    },
+    {
+      "id": "evt_003",
+      "title": "Design Review",
+      "description": "Review the new dashboard mockups.",
+      "start": "2026-08-09T11:00:00Z",
+      "end": "2026-08-09T12:00:00Z",
+      "type": "review",
+      "attendees": ["usr_002", "usr_003"]
+    }
+  ],
+  "comments": [
+    {
+      "id": "cmt_001",
+      "taskId": "tsk_002",
+      "authorId": "usr_002",
+      "content": "Make sure the drag overlay has a drop shadow so it pops out over the other cards.",
+      "createdAt": "2026-08-07T10:30:00Z"
+    },
+    {
+      "id": "cmt_002",
+      "taskId": "tsk_002",
+      "authorId": "usr_001",
+      "content": "Added! Check out the latest commit. It looks much better now.",
+      "createdAt": "2026-08-07T11:15:00Z"
+    },
+    {
+      "id": "cmt_003",
+      "taskId": "tsk_001",
+      "authorId": "usr_003",
+      "content": "I've replaced all Hex colors. Ready for review.",
+      "createdAt": "2026-08-04T16:00:00Z"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "att_001",
+      "taskId": "tsk_001",
+      "uploaderId": "usr_003",
+      "fileName": "color_tokens.json",
+      "fileSize": 1024,
+      "fileType": "application/json",
+      "url": "https://storage.taskmatrix.com/color_tokens.json",
+      "createdAt": "2026-08-04T15:55:00Z"
+    },
+    {
+      "id": "att_002",
+      "taskId": "tsk_003",
+      "uploaderId": "usr_001",
+      "fileName": "app_architecture.pdf",
+      "fileSize": 4500000,
+      "fileType": "application/pdf",
+      "url": "https://storage.taskmatrix.com/app_architecture.pdf",
+      "createdAt": "2026-08-06T10:00:00Z"
+    },
+    {
+      "id": "att_003",
+      "projectId": "prj_001",
+      "uploaderId": "usr_002",
+      "fileName": "redesign_brief.docx",
+      "fileSize": 250000,
+      "fileType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://storage.taskmatrix.com/redesign_brief.docx",
+      "createdAt": "2026-06-01T09:00:00Z"
+    }
+  ]
+}
