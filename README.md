@@ -1,10 +1,12 @@
 <div align="center">
 
-# ◈ TaskMatrix
+# ◈ TASKMATRIX
 
 ### Enterprise Agile Project Management Platform
 
-**A modern project management platform for teams to plan, organize, track, and deliver work efficiently.**
+**Plan · Organize · Execute · Deliver**
+
+A modern full-stack project management platform designed to help teams manage projects, tasks, collaboration, and productivity from one centralized workspace.
 
 <br>
 
@@ -25,17 +27,17 @@
 
 ---
 
-# 🌐 Live Product
+# 🌐 LIVE APPLICATION
 
 <div align="center">
 
-### TaskMatrix is being developed as a production-oriented full-stack application.
+## ◈ TASKMATRIX IS LIVE
 
 <br>
 
 <a href="YOUR_LIVE_URL">
 
-<img src="https://img.shields.io/badge/🚀%20OPEN%20TASKMATRIX-LIVE%20APPLICATION-4F46E5?style=for-the-badge&labelColor=111827" alt="Open TaskMatrix">
+<img src="https://img.shields.io/badge/🚀%20LAUNCH%20TASKMATRIX-OPEN%20LIVE%20APPLICATION-4F46E5?style=for-the-badge&labelColor=111827" alt="Launch TaskMatrix">
 
 </a>
 
@@ -47,7 +49,7 @@
 
 ---
 
-# 📋 Project Information
+# 01 — PROJECT INFORMATION
 
 | Item | Details |
 |---|---|
@@ -56,83 +58,101 @@
 | **Internship** | Prodesk IT Summer Engineering Internship 2026 |
 | **Phase** | Capstone |
 | **Designated Track** | Backend Architecture |
-| **Development Model** | Full-Stack MERN Application |
+| **Development Model** | Full-Stack Application |
 | **Database** | MongoDB Atlas |
 | **UI/UX Tool** | Figma |
 | **Architecture Tool** | Draw.io |
 
 ---
 
-# 📖 Product Overview
+# 02 — PRODUCT OVERVIEW
 
-TaskMatrix is an Agile Project Management platform designed to help software teams manage their complete project workflow from a centralized workspace.
+TaskMatrix is an Agile Project Management platform designed for modern software teams.
 
-The platform allows teams to create workspaces, organize projects, create and assign tasks, manage work through Kanban boards, collaborate with team members, and monitor project progress.
+It provides a centralized workspace where teams can:
 
-The project is being designed with a scalable architecture so that the application can evolve from an MVP into a production-oriented enterprise platform.
+- Create and manage workspaces
+- Create and manage projects
+- Create and assign tasks
+- Organize work through Kanban boards
+- Collaborate with team members
+- Track project progress
+- Monitor productivity
+- Manage deadlines and notifications
+
+The project is being developed as the **Prodesk IT Summer Engineering Internship 2026 Capstone Project**.
 
 ---
 
-# 🎯 Problem Statement
+# 03 — PROBLEM STATEMENT
 
-Software teams often use multiple disconnected tools for project planning, task tracking, team collaboration, and progress monitoring.
+Development teams often rely on multiple disconnected tools for project planning, task tracking, collaboration, and progress monitoring.
 
-This can result in:
+This can lead to:
 
 - Scattered project information
-- Poor visibility of tasks
+- Poor task visibility
 - Difficult team coordination
 - Missed deadlines
 - Inefficient workflows
-- Limited project progress visibility
+- Limited project insights
 
-TaskMatrix aims to solve these problems by bringing project management and collaboration into one centralized platform.
+### TaskMatrix Approach
+
+```text
+Centralized Workspace
+        ↓
+Project Management
+        ↓
+Task Management
+        ↓
+Kanban Workflow
+        ↓
+Team Collaboration
+        ↓
+Progress & Analytics
+```
 
 ---
 
-# 💡 Product Goals
+# 04 — PRODUCT OBJECTIVES
 
-The primary goals of TaskMatrix are:
+The primary objectives of TaskMatrix are:
 
-- Provide centralized project and task management.
-- Simplify Agile workflow management.
-- Enable team collaboration.
-- Provide visual Kanban-based task tracking.
+- Build a production-oriented project management platform.
+- Provide secure authentication and authorization.
+- Implement scalable backend architecture.
+- Provide project and task management.
+- Implement Kanban-based workflows.
+- Support team collaboration.
 - Provide project progress insights.
-- Build a scalable backend architecture.
-- Implement secure authentication and authorization.
-- Create a responsive and professional SaaS interface.
+- Maintain a modular and maintainable codebase.
+- Create a responsive and professional user experience.
 
 ---
 
-# ✨ Prioritized Core Features
-
-The features are divided according to the capstone priority structure.
+# 05 — PRIORITIZED CORE FEATURES
 
 ## 🔴 P0 — Mandatory MVP
 
-These features form the minimum functional product.
-
 | Priority | Feature | Description |
 |---|---|---|
-| P0 | 🔐 Authentication | User registration, login, logout, and session management |
-| P0 | 🏢 Workspace Management | Create and manage team workspaces |
-| P0 | 📁 Project Management | Create, view, update, and delete projects |
-| P0 | ✅ Task Management | Create, update, assign, and delete tasks |
-| P0 | 📋 Kanban Board | Manage tasks through workflow columns |
+| P0 | 🔐 Authentication | Registration, login, logout and session management |
+| P0 | 🏢 Workspaces | Create and manage team workspaces |
+| P0 | 📁 Projects | Create, view, update and delete projects |
+| P0 | ✅ Tasks | Create, assign, update and delete tasks |
+| P0 | 📋 Kanban Board | Visual task workflow management |
 | P0 | 👥 Team Management | Manage workspace members and roles |
-| P0 | 📊 Dashboard | Display project and task overview |
+| P0 | 📊 Dashboard | Project and task overview |
 
 ---
 
 ## 🟡 P1 — Priority Features
 
-These features demonstrate additional architectural capability.
-
 | Priority | Feature | Description |
 |---|---|---|
 | P1 | 💬 Comments | Task-level collaboration |
-| P1 | 🔔 Notifications | Task and project activity notifications |
+| P1 | 🔔 Notifications | Task and project updates |
 | P1 | 📅 Calendar | Deadlines and scheduled activities |
 | P1 | 🔎 Search | Search projects and tasks |
 | P1 | 🎯 Filters | Filter and sort project/task data |
@@ -143,36 +163,34 @@ These features demonstrate additional architectural capability.
 
 ## 🔵 P2 — Stretch Goals
 
-These features are planned as optimization and advanced functionality.
-
 | Priority | Feature | Description |
 |---|---|---|
 | P2 | ⚡ Real-Time Updates | Live project and task updates |
-| P2 | 🤖 AI Assistance | AI-powered project and task assistance |
-| P2 | 📧 Email Notifications | Automated notifications |
-| P2 | 📎 File Attachments | Task and project file management |
+| P2 | 🤖 AI Assistance | AI-powered task/project assistance |
+| P2 | 📧 Email Notifications | Automated communication |
+| P2 | 📎 File Attachments | Task and project files |
 | P2 | 📊 Advanced Analytics | Detailed productivity insights |
-| P2 | 🔗 Integrations | Integration with external services |
+| P2 | 🔗 Integrations | External service integrations |
 
 ---
 
-# 🛠️ Technology Stack
+# 06 — TECHNOLOGY STACK
 
 ## Frontend
 
 | Technology | Purpose |
 |---|---|
-| React 19 | Frontend application |
+| React 19 | User interface |
 | TypeScript | Type-safe development |
 | Vite | Development and build tooling |
-| Tailwind CSS | UI styling |
+| Tailwind CSS | Styling |
 | React Router | Application routing |
 | Zustand | Global state management |
-| React Hook Form | Form management |
-| Zod | Form validation |
+| React Hook Form | Form handling |
+| Zod | Validation |
 | Axios | API communication |
 | DND Kit | Kanban drag-and-drop |
-| Recharts | Analytics and charts |
+| Recharts | Analytics |
 | Framer Motion | UI animations |
 | Lucide React | Icons |
 
@@ -180,42 +198,41 @@ These features are planned as optimization and advanced functionality.
 
 | Technology | Purpose |
 |---|---|
-| Node.js | Backend runtime |
+| Node.js | Runtime |
 | Express.js | REST API |
 | MongoDB Atlas | Database |
-| Mongoose | MongoDB data modeling |
+| Mongoose | Database modeling |
 | bcrypt | Password hashing |
 | HTTP-only Cookies | Authentication |
 
-## Development & Design
+## Tools
 
 | Tool | Purpose |
 |---|---|
-| Git | Version control |
-| GitHub | Repository management |
-| Figma | UI/UX wireframes |
+| Git & GitHub | Version control |
+| Figma | UI/UX design |
 | Draw.io | Architecture diagrams |
 | Postman / Thunder Client | API testing |
 | Vercel | Deployment |
 
 ---
 
-# 🎨 UI/UX Design
+# 07 — UI/UX DESIGN
 
-The UI/UX design was created before implementation as required by the capstone planning phase.
+The TaskMatrix interface was designed before implementation as part of the Sprint 13 planning phase.
 
 ### Core Viewports
 
-The minimum required three core viewports are:
+The design includes the required core views:
 
 1. **Authentication Screen**
 2. **Main Dashboard**
-3. **Kanban / Task Management View**
+3. **Data / Task Details View**
 
-Additional screens have also been designed to provide a complete product experience:
+Additional views include:
 
 - Projects
-- Task Details
+- Kanban Board
 - Calendar
 - Team Management
 - Reports
@@ -223,56 +240,64 @@ Additional screens have also been designed to provide a complete product experie
 - Profile
 - Settings
 
-### Figma Design
+### Design Principles
 
-🎨 **[View the TaskMatrix Figma Design →](YOUR_FIGMA_URL)**
+- Modern SaaS interface
+- Clear visual hierarchy
+- Consistent spacing
+- Reusable components
+- Responsive layouts
+- Accessible interactions
+- Consistent design language
+
+### 🎨 Figma Design
+
+**[View the TaskMatrix Figma Design →](https://www.figma.com/design/00t4wXLsmsmPlbyLx1gUBV/TaskMatrix-UI?node-id=0-1&t=jkT3RZP0HjexgJBo-1)**
 
 ---
 
-# 🏗️ System Architecture
+# 08 — SYSTEM ARCHITECTURE
 
-TaskMatrix follows a layered architecture designed to separate UI, state management, business logic, data access, and API communication.
+TaskMatrix follows a layered architecture separating the UI, state management, business logic, data access, and API communication.
 
 ```text
-┌─────────────────────┐
-│     React UI        │
-│ Pages / Components  │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│    Zustand Store    │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│   Service Layer     │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│ Repository Layer    │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│    Axios Client     │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│   Express REST API  │
-└──────────┬──────────┘
-           ↓
-┌─────────────────────┐
-│    MongoDB Atlas    │
-└─────────────────────┘
+┌─────────────────────────┐
+│        React UI         │
+│ Pages + Components      │
+└────────────┬────────────┘
+             ↓
+┌─────────────────────────┐
+│      Zustand Store      │
+└────────────┬────────────┘
+             ↓
+┌─────────────────────────┐
+│      Service Layer      │
+└────────────┬────────────┘
+             ↓
+┌─────────────────────────┐
+│    Repository Layer     │
+└────────────┬────────────┘
+             ↓
+┌─────────────────────────┐
+│      Axios Client       │
+└────────────┬────────────┘
+             ↓
+┌─────────────────────────┐
+│     Express REST API    │
+└────────────┬────────────┘
+             ↓
+┌─────────────────────────┐
+│      MongoDB Atlas      │
+└─────────────────────────┘
 ```
-
-This architecture allows the frontend and backend to remain modular and independently maintainable.
 
 ---
 
-# 🗄️ Database Architecture
+# 09 — DATABASE ARCHITECTURE
 
-TaskMatrix will use MongoDB Atlas as the primary database.
+TaskMatrix uses MongoDB Atlas for persistent application data.
 
-### Planned MongoDB Collections
+### Planned Collections
 
 ```text
 Users
@@ -298,52 +323,53 @@ User
               │
               └── Tasks
                     ├── Comments
-                    ├── Activities
-                    └── Attachments
+                    └── Activities
 ```
 
 ### ER Diagram
 
-The complete MongoDB ER diagram is available below:
+> 📌 **Add the exported ER diagram here.**
 
-![TaskMatrix ER Diagram](docs/diagrams/er-diagram.png)
+**File:** `docs/diagrams/er-diagram.png`
 
 ---
 
-# 🧠 Frontend State Tree
+# 10 — FRONTEND STATE ARCHITECTURE
 
-The frontend global state is planned around the major application domains.
+TaskMatrix uses Zustand for global frontend state.
 
 ```text
-TaskMatrix
+TaskMatrix Store
 │
-├── Auth
+├── Auth Store
 │   ├── User
+│   ├── Authentication
 │   └── Session
 │
-├── Workspace
-│   ├── Current Workspace
+├── Workspace Store
+│   ├── Workspaces
+│   ├── Active Workspace
 │   └── Members
 │
-├── Projects
+├── Project Store
 │   ├── Projects
+│   ├── Selected Project
 │   └── Filters
 │
-├── Tasks
+├── Task Store
 │   ├── Tasks
 │   ├── Selected Task
-│   └── Kanban State
+│   ├── Kanban State
+│   └── Filters
 │
-├── Notifications
+├── Notification Store
+│   └── Notifications
 │
-└── Theme
+└── Theme Store
+    └── Theme
 ```
 
-### State Management
-
-**Zustand** will be used for global client-side state management.
-
-The planned data flow is:
+### State Flow
 
 ```text
 Component
@@ -359,20 +385,24 @@ API Client
 
 ### State Tree Diagram
 
-![TaskMatrix State Tree](docs/diagrams/state-tree.png)
+> 📌 **Add the exported State Tree diagram here.**
+
+**File:** `docs/diagrams/state-tree.png`
 
 ---
 
-# 🔌 Planned API Endpoints
+# 11 — API ENDPOINT PLAN
+
+The frontend communicates with the backend through a centralized API layer.
 
 ## Authentication
 
 | Method | Endpoint | Purpose |
 |---|---|---|
 | POST | `/api/auth/register` | Register user |
-| POST | `/api/auth/login` | Login user |
-| POST | `/api/auth/logout` | Logout user |
-| GET | `/api/auth/me` | Get authenticated user |
+| POST | `/api/auth/login` | Login |
+| POST | `/api/auth/logout` | Logout |
+| GET | `/api/auth/me` | Current user |
 
 ## Workspaces
 
@@ -380,7 +410,7 @@ API Client
 |---|---|---|
 | GET | `/api/workspaces` | List workspaces |
 | POST | `/api/workspaces` | Create workspace |
-| GET | `/api/workspaces/:id` | Get workspace |
+| GET | `/api/workspaces/:id` | Workspace details |
 | PATCH | `/api/workspaces/:id` | Update workspace |
 | DELETE | `/api/workspaces/:id` | Delete workspace |
 
@@ -390,7 +420,7 @@ API Client
 |---|---|---|
 | GET | `/api/projects` | List projects |
 | POST | `/api/projects` | Create project |
-| GET | `/api/projects/:id` | Get project |
+| GET | `/api/projects/:id` | Project details |
 | PATCH | `/api/projects/:id` | Update project |
 | DELETE | `/api/projects/:id` | Delete project |
 
@@ -400,48 +430,48 @@ API Client
 |---|---|---|
 | GET | `/api/tasks` | List tasks |
 | POST | `/api/tasks` | Create task |
-| GET | `/api/tasks/:id` | Get task |
+| GET | `/api/tasks/:id` | Task details |
 | PATCH | `/api/tasks/:id` | Update task |
 | DELETE | `/api/tasks/:id` | Delete task |
 | PATCH | `/api/tasks/:id/status` | Update task status |
 
 ---
 
-# 🔐 Authentication & Security Plan
+# 12 — AUTHENTICATION & SECURITY
 
-TaskMatrix will use secure HTTP-only authentication cookies.
+TaskMatrix is designed around secure HTTP-only cookie authentication.
 
 ```text
-User Login
-    ↓
-POST /api/auth/login
-    ↓
+User
+ ↓
+Login
+ ↓
 Backend Authentication
-    ↓
+ ↓
 HTTP-only Cookie
-    ↓
-Authenticated Requests
-    ↓
-Protected API Routes
+ ↓
+Authenticated Request
+ ↓
+Protected API
 ```
 
-Security principles:
+### Security Principles
 
 - HTTP-only authentication cookies
 - Password hashing
-- Protected routes
+- Protected API routes
 - Authorization checks
-- Request validation
+- Input validation
 - Centralized error handling
 - No passwords stored in frontend storage
 - No JWT stored in localStorage
-- No sensitive backend information exposed to clients
+- Sensitive backend information is not exposed
 
 ---
 
-# 📋 Kanban Workflow
+# 13 — KANBAN WORKFLOW
 
-The primary task workflow is:
+The primary task workflow consists of:
 
 ```text
 ┌─────────┐
@@ -461,7 +491,7 @@ The primary task workflow is:
 └─────────┘
 ```
 
-Tasks will support:
+Tasks support:
 
 - Priority
 - Assignee
@@ -473,25 +503,10 @@ Tasks will support:
 
 ---
 
-# 📈 Capstone Development Roadmap
-
-| Phase | Deliverable | Priority | Status |
-|---|---|---|---|
-| Sprint 13 | Product Planning & PRD | P0 | ✅ |
-| Sprint 13 | Figma Wireframes | P1 | ✅ |
-| Sprint 13 | ER Diagram | P2 | 🚧 |
-| Sprint 13 | State Tree | P2 | 🚧 |
-| Sprint 13 | API Planning | P2 | 🚧 |
-| Sprint 14 | Authentication & Workspace | P0 | 📅 |
-| Sprint 15 | Projects, Tasks & Kanban | P0 | 📅 |
-| Sprint 16 | Collaboration & Optimization | P1/P2 | 📅 |
-
----
-
-# 📁 Planned Repository Structure
+# 14 — PROJECT STRUCTURE
 
 ```text
-TaskMatrix/
+prodesk-capstone-taskmatrix/
 │
 ├── client/
 │   └── src/
@@ -516,9 +531,6 @@ TaskMatrix/
 │
 ├── docs/
 │   ├── diagrams/
-│   │   ├── er-diagram.png
-│   │   └── state-tree.png
-│   │
 │   └── images/
 │
 ├── README.md
@@ -527,68 +539,112 @@ TaskMatrix/
 
 ---
 
-# 📸 UI Preview
+# 15 — SPRINT 13 DELIVERABLES
 
-The final UI designs will be documented here after the Figma refinement phase.
+This README follows the Sprint 13 specification.
 
-### Authentication
-
-![TaskMatrix Login](docs/images/login.png)
-
-### Dashboard
-
-![TaskMatrix Dashboard](docs/images/dashboard.png)
-
-### Kanban Board
-
-![TaskMatrix Kanban](docs/images/kanban.png)
-
----
-
-# 📦 Sprint 13 Deliverables
-
-This repository contains the planning and architecture deliverables required for Sprint 13:
-
-- [x] Project Selection — TaskMatrix
-- [x] Public GitHub Repository
-- [x] Product Requirements Document
-- [x] Designated Track — Backend Architecture
-- [x] Technology Stack Definition
-- [x] Prioritized Feature Planning
-- [x] UI/UX Wireframes
-- [x] Figma Design
-- [ ] ER Diagram
-- [ ] Frontend State Tree Diagram
-- [ ] Mock API Endpoint Documentation
-- [ ] Live Website
-- [ ] 2–3 Minute Demonstration Video
+| Requirement | Status |
+|---|---|
+| Project Selection | ✅ TaskMatrix |
+| Public GitHub Repository | ✅ |
+| Product Requirements Document | ✅ |
+| Project Name | ✅ |
+| Designated Track | ✅ Backend Architecture |
+| Technology Stack | ✅ |
+| Prioritized Core Features | ✅ |
+| UI/UX Wireframes | ✅ |
+| Minimum 3 Core Viewports | ✅ |
+| Public Figma Link | 🔗 Add Link |
+| ER Diagram | 📌 Add Diagram |
+| MongoDB Relationships | 📌 Add Diagram |
+| State Tree Diagram | 📌 Add Diagram |
+| Mock API Endpoints | ✅ |
+| Live Website | 🔗 Add Link |
+| 2–3 Minute Video | 🎥 Add Link |
 
 ---
 
-# 🎥 Sprint Demonstration
+# 16 — DEVELOPMENT ROADMAP
 
-A short demonstration video explaining the planning, UI/UX design, architecture, and project roadmap will be provided here.
-
-▶️ **[Watch the Sprint 13 Demo →](YOUR_YOUTUBE_URL)**
+```text
+SPRINT 13
+│
+├── Product Planning
+├── PRD / README
+├── Figma UI/UX
+├── System Architecture
+├── ER Diagram
+└── State Tree
+        │
+        ▼
+SPRINT 14
+│
+├── Authentication
+├── Workspaces
+└── Backend Integration
+        │
+        ▼
+SPRINT 15
+│
+├── Projects
+├── Tasks
+├── Kanban
+└── Team Management
+        │
+        ▼
+SPRINT 16
+│
+├── Collaboration
+├── Notifications
+├── Analytics
+├── Testing
+└── Deployment
+```
 
 ---
 
-# 🌐 Submission Links
+# 17 — FINAL SUBMISSION
 
 | Deliverable | Link |
 |---|---|
 | 📂 GitHub Repository | `YOUR_GITHUB_URL` |
 | 🌐 Live Website | `YOUR_LIVE_URL` |
-| 🎨 Figma Design | `YOUR_FIGMA_URL` |
+| 🎨 Figma File | `YOUR_FIGMA_URL` |
 | 🎥 Demo Video | `YOUR_YOUTUBE_URL` |
 
 ---
 
-# 👨‍💻 Author
+# 18 — DEMO VIDEO
+
+The 2–3 minute demonstration will cover:
+
+```text
+Project Introduction
+        ↓
+Problem & Solution
+        ↓
+Figma UI/UX
+        ↓
+System Architecture
+        ↓
+ER Diagram
+        ↓
+State Tree
+        ↓
+Working Prototype
+        ↓
+Development Roadmap
+```
+
+🎥 **[Watch the TaskMatrix Demo →](YOUR_YOUTUBE_URL)**
+
+---
+
+# 👨‍💻 AUTHOR
 
 <div align="center">
 
-### Daksh Choudhary
+## Daksh Choudhary
 
 **B.Tech — Artificial Intelligence & Machine Learning**
 
@@ -606,7 +662,7 @@ Haridwar University
 
 <div align="center">
 
-### ◈ TaskMatrix
+### ◈ TASKMATRIX
 
 **Plan · Organize · Execute · Deliver**
 
