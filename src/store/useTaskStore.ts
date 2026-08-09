@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import type { Task, TaskStatus } from '@/types';
 import { TaskService } from '@/services/TaskService';
+import { ReportService } from '@/services/ReportService';
 import toast from 'react-hot-toast';
 
 interface TaskState {
@@ -116,7 +117,6 @@ export const useTaskStore = create<TaskState>((set, get) => ({
     try {
       await TaskService.moveTask(id, status);
 
-      const { ReportService } = await import('@/services/ReportService');
       await ReportService.addActivity({
         action: `moved task`,
         taskId: id,

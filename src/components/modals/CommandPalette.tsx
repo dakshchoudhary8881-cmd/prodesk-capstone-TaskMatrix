@@ -8,12 +8,6 @@ import { useTaskStore } from '@/store/useTaskStore';
 import { useUserStore } from '@/store/useUserStore';
 import { ReportService } from '@/services/ReportService';
 
-// Also export an event bus/trigger so other components can open it
-export const openCommandPalette = () => {
-  const event = new CustomEvent('open-command-palette');
-  window.dispatchEvent(event);
-};
-
 export function CommandPalette() {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState('');
