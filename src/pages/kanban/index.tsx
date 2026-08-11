@@ -61,7 +61,7 @@ export function BoardPage() {
                 />
               ))}
               {extraMembersCount > 0 && (
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 ring-2 ring-white dark:bg-slate-800 dark:ring-slate-950">
+                <div className="hidden xs:flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 ring-2 ring-white dark:bg-slate-800 dark:ring-slate-950">
                   <span className="text-xs font-medium text-slate-600 dark:text-slate-400">
                     +{extraMembersCount}
                   </span>

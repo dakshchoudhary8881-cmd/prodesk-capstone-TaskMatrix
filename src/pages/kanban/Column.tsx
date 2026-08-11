@@ -24,7 +24,7 @@ export function Column({ column, tasks, onTaskClick, onCreateTask }: ColumnProps
   });
 
   return (
-    <div className="flex h-full w-80 shrink-0 flex-col overflow-hidden rounded-2xl bg-slate-100/50 dark:bg-slate-900/50 border border-slate-200/60 dark:border-slate-800/60 shadow-sm">
+    <div className="flex h-full w-[85vw] sm:w-80 shrink-0 flex-col overflow-hidden rounded-2xl bg-slate-100/50 dark:bg-slate-900/50 border border-slate-200/60 dark:border-slate-800/60 shadow-sm">
       <div className="flex items-center justify-between border-b border-slate-200/60 bg-slate-50/50 p-4 dark:border-slate-800/60 dark:bg-slate-900/30">
         <div className="flex items-center gap-2.5">
           <h3 className="font-semibold text-slate-800 dark:text-slate-200">{column.title}</h3>

@@ -69,7 +69,7 @@ export function PageHeader({ title, description, actions, className }: PageHeade
             <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">{description}</p>
           )}
         </div>
-        {actions && <div className="flex items-center gap-2">{actions}</div>}
+        {actions && <div className="flex flex-wrap items-center gap-2">{actions}</div>}
       </div>
     </div>
   );
